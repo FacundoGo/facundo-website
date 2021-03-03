@@ -1,5 +1,8 @@
 .App {
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .App-logo {
@@ -35,4 +38,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  }
+
+.App-logo {
+  height: 50px;
+  width: 70px;
 }
